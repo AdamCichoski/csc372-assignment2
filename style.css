@@ -1,0 +1,120 @@
+body{
+    font-family: Georgia, serif;
+}
+body{
+    color: #404040;
+    font-size: 11pt;
+}
+
+a {
+    color: #A4A400;
+}
+
+header{
+    color: black;
+}
+h2{
+    text-align:left;
+    padding-left: 10px;
+    font-size: 18pt;
+}
+
+h1{
+    text-align: center;
+    font-size: 22pt;
+}
+
+p{
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+span{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+img {
+  display: block;
+  margin: 0 auto; 
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.swissImage{
+    width:60%;
+    margin: 0 auto;
+}
+
+.navbar {
+   background: #387434;  
+   padding: 10px 0;  
+   text-align: center;     
+}
+
+.navbar a {
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   font-weight: bold;
+   padding: 10px;
+   font-size: x-large;
+}
+
+.navbar a:hover {
+   color: white;    
+   background-color: #054600;
+
+}
+
+table{
+    background-color: #cecbcb;
+    margin: 0 auto;
+}
+
+th{
+    background-color: rgb(254, 246, 236);
+    padding-left:10px;
+    padding-right:10px;
+    font-size: large;
+}
+
+td{
+    max-width: 200px;
+    min-width: 150px;
+    text-align: center;
+}
+
+.tableImage{
+    max-width: 200px;
+}
+
+tr:nth-child(odd) {
+  background-color: #d2d1d1; 
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff; 
+}
+
+footer{
+    color: rgb(177, 177, 177);
+    font-weight: lighter;
+}
+
+footer span .footerLeft{
+    margin: 0 auto
+}
+
+.footerText{
+    text-align: right;
+}
+
+.testemonial{
+    font-style: italic;
+    background-color: #FFFFA8;
+}
