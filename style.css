@@ -1,9 +1,10 @@
 body{
     font-family: Georgia, serif;
-}
-body{
     color: #404040;
     font-size: 11pt;
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-attachment: fixed; /* Keeps background fixed during scroll */
 }
 
 a {
