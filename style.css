@@ -2,7 +2,7 @@ body{
     font-family: Georgia, serif;
     color: #404040;
     font-size: 11pt;
-    background-image: url('background.png');
+    background-image: url('./background.png');
     background-size: cover;
     background-attachment: fixed; /* Keeps background fixed during scroll */
 }
@@ -51,7 +51,7 @@ ul li::before {
         display: inline-block; /* Allows width and height to be set */
         width: 20px; /* Set your desired width */
         height: 20px; /* Set your desired height */
-        background-image: url('/images/favicon.png');
+        background-image: url('./favicon.png');
         background-size: contain; /* or 'cover' or specific values like '100% 100%' */
         background-repeat: no-repeat;
         margin-right: 5px; /* Adjust spacing between image and list item text */
