@@ -47,14 +47,14 @@ ul{
 }
 
 ul li::before {
-        content: ''; /* Required for pseudo-elements */
-        display: inline-block; /* Allows width and height to be set */
-        width: 20px; /* Set your desired width */
-        height: 20px; /* Set your desired height */
+        content: ''; 
+        display: inline-block;
+        width: 20px;
+        height: 20px; 
         background-image: url('./favicon.png');
-        background-size: contain; /* or 'cover' or specific values like '100% 100%' */
+        background-size: contain; 
         background-repeat: no-repeat;
-        margin-right: 5px; /* Adjust spacing between image and list item text */
+        margin-right: 5px; 
     }
 
 li{
@@ -117,7 +117,7 @@ tr:nth-child(even) {
 }
 
 footer{
-    color: rgb(177, 177, 177);
+    color: rgb(37, 37, 37);
     font-weight: lighter;
 }
 
